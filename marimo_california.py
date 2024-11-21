@@ -1,7 +1,13 @@
 import marimo
 
-__generated_with = "0.9.19"
+__generated_with = "0.9.20"
 app = marimo.App()
+
+
+@app.cell
+def __(mo):
+    mo.md("""# Marimo + Blender""")
+    return
 
 
 @app.cell
